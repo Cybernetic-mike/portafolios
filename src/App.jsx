@@ -1,4 +1,4 @@
-import { Box, ThemeProvider } from "@mui/material";
+import { Box, ThemeProvider, Typography } from "@mui/material";
 import Home from "./Pages/Home";
 
 import NavBar from "./Components/Navbar";
@@ -9,21 +9,19 @@ import theme from "./theme";
 const navArrayLinks = [
   {
     title: "Inicio",
-    path: "/portafolios",
+    path: "/",
     icon: <MenuIcon color="success" />,
   },
 ];
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/portafolios">
-        <Box>
-          <NavBar navArrayLinks={navArrayLinks} />
-          <Routes>
-            <Route path="/portafolios" element={<Home />} />
-          </Routes>
-        </Box>
-      </BrowserRouter>
+      <Box>
+        <NavBar navArrayLinks={navArrayLinks} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Box>
     </ThemeProvider>
   );
 }
