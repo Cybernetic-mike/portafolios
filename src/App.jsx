@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import NavBar from "./Components/Navbar";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import theme from "./theme";
 const navArrayLinks = [
   {
@@ -16,12 +16,14 @@ const navArrayLinks = [
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Box>
-        <NavBar navArrayLinks={navArrayLinks} />
-        <Routes>
-          <Route path="/portafolios" element={<Home />} />
-        </Routes>
-      </Box>
+      <BrowserRouter basename="/portafolios">
+        <Box>
+          <NavBar navArrayLinks={navArrayLinks} />
+          <Routes>
+            <Route path="/portafolios" element={<Home />} />
+          </Routes>
+        </Box>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
