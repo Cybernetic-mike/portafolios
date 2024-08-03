@@ -9,7 +9,7 @@ import theme from "./theme";
 const navArrayLinks = [
   {
     title: "Inicio",
-    path: "/",
+    path: "/portafolios",
     icon: <MenuIcon color="success" />,
   },
 ];
@@ -19,7 +19,7 @@ function App() {
       <Box>
         <NavBar navArrayLinks={navArrayLinks} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/portafolios" element={<Home />} />
         </Routes>
       </Box>
     </ThemeProvider>
