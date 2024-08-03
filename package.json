@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cybernetic-mike.github.io/portfolio/",
+  "homepage": "https://cybernetic-mike.github.io/portfolios/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
