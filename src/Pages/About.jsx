@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import FotoPerfil2 from "../images/FotoPerfil2.png";
 import DownloadButton from "../class/DownloadButton";

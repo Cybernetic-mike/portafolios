@@ -1,14 +1,4 @@
-import {
-  Box,
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Grid,
-  IconButton,
-  Typography,
-} from "@mui/material";
+import { Box, IconButton, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import imagenPortafolio from "../images/Portafolio.png";
 import imagen2 from "../images/services-2.png";
@@ -17,7 +7,6 @@ import AddIcon from "@mui/icons-material/Add";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../css/styles.css";
-import { Opacity, Visibility } from "@mui/icons-material";
 
 function Portfolio() {
   const [slidesToScroll, setSlidesToScroll] = useState(3);
