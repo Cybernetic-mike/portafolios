@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a69519de.css",
+    "main.js": "/portfolio/static/js/main.8762d64f.js",
+    "static/js/787.d5fa4d18.chunk.js": "/portfolio/static/js/787.d5fa4d18.chunk.js",
+    "static/media/FotoPerfil2.png": "/portfolio/static/media/FotoPerfil2.1cceafc9fde0852f7fc4.png",
+    "static/media/FotoRostro.png": "/portfolio/static/media/FotoRostro.dbbb47a3261e5096cda6.png",
+    "static/media/Portafolio.png": "/portfolio/static/media/Portafolio.311f855a250cbef83724.png",
+    "static/media/services-4.png": "/portfolio/static/media/services-4.8cc5d728b288a2ce44af.png",
+    "static/media/services-2.png": "/portfolio/static/media/services-2.5866d0f104a12084a76b.png",
+    "static/media/services-3.png": "/portfolio/static/media/services-3.b310227ef2e4d7e04b9b.png",
+    "static/media/services-1.png": "/portfolio/static/media/services-1.3051d439af72607a1e63.png",
+    "static/media/logos--react.svg": "/portfolio/static/media/logos--react.1ab4881ec20f7d946bc4927dd9071d00.svg",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "static/media/skill-icons--javascript.svg": "/portfolio/static/media/skill-icons--javascript.e055a8b9c8dc495f8826aec264edf496.svg",
+    "static/media/simple-icons--github.svg": "/portfolio/static/media/simple-icons--github.1dd3807ac72ea969ab9332d4698794bc.svg",
+    "static/media/devicon--css3.svg": "/portfolio/static/media/devicon--css3.ad3cc133e67ed06b76dc1d667a0cf234.svg",
+    "static/media/devicon--html5.svg": "/portfolio/static/media/devicon--html5.9b3f3f14ee56348ba2dee9dc74d982c8.svg",
+    "static/media/logos--facebook.svg": "/portfolio/static/media/logos--facebook.6acd5606be798d6cd42a41d1e524f429.svg",
+    "static/media/devicon--linkedin.svg": "/portfolio/static/media/devicon--linkedin.27f9e9cb3a5fae594ec0579828bb9864.svg",
+    "main.a69519de.css.map": "/portfolio/static/css/main.a69519de.css.map",
+    "main.8762d64f.js.map": "/portfolio/static/js/main.8762d64f.js.map",
+    "787.d5fa4d18.chunk.js.map": "/portfolio/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a69519de.css",
+    "static/js/main.8762d64f.js"
+  ]
+}
