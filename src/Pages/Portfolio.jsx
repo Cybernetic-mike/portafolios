@@ -1,7 +1,10 @@
 import { Box, IconButton, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import imagenPortafolio from "../images/Portafolio.png";
-import imagen2 from "../images/services-2.png";
+import imagenPortafolio from "../images/Portafolios-pages.png";
+import OdontosteticPages from "../images/OdontoStetic-pages.png";
+import DedicatoriaPages from "../images/dedicatoria-pages.png";
+import BanerHappy from "../images/Baner-happy.png";
+import Letreros from "../images/letreros.png";
 import Slider from "react-slick";
 import AddIcon from "@mui/icons-material/Add";
 import "slick-carousel/slick/slick.css";
@@ -46,6 +49,24 @@ function Portfolio() {
     height: "85%",
     justifyContent: "center",
     alignItems: "center",
+  };
+  const openPortafolios = () => {
+    window.open("https://cybernetic-mike.github.io/portafolios/", "_blank");
+  };
+  const openOdontoStetic = () => {
+    window.open("https://cybernetic-mike.github.io/odonto-stetic/", "_blank");
+  };
+  const openDedicatoria = () => {
+    window.open(
+      "https://cybernetic-mike.github.io/dedicatoria-gaby/",
+      "_blank"
+    );
+  };
+  const openHappy = () => {
+    window.open(BanerHappy, "_blank");
+  };
+  const openLetreros = () => {
+    window.open(Letreros, "_blank");
   };
   return (
     <Box
@@ -100,7 +121,11 @@ function Portfolio() {
                       className="dim-imagen-proyectos"
                     />
                     <Box className="efectos-imagen">
-                      <IconButton size="large" color="primary">
+                      <IconButton
+                        size="large"
+                        color="primary"
+                        onClick={openPortafolios}
+                      >
                         <AddIcon fontSize="inherit" />
                       </IconButton>
                     </Box>
@@ -115,12 +140,16 @@ function Portfolio() {
                 >
                   <figure className="animacion-imagen">
                     <img
-                      src={imagen2}
+                      src={OdontosteticPages}
                       alt="primer Imagen"
                       className="dim-imagen-proyectos"
                     />
                     <Box className="efectos-imagen">
-                      <IconButton size="large" color="primary">
+                      <IconButton
+                        size="large"
+                        color="primary"
+                        onClick={openOdontoStetic}
+                      >
                         <AddIcon fontSize="inherit" />
                       </IconButton>
                     </Box>
@@ -135,12 +164,40 @@ function Portfolio() {
                 >
                   <figure className="animacion-imagen">
                     <img
-                      src={imagenPortafolio}
+                      src={DedicatoriaPages}
                       alt="primer Imagen"
                       className="dim-imagen-proyectos"
                     />
                     <Box className="efectos-imagen">
-                      <IconButton size="large" color="primary">
+                      <IconButton
+                        size="large"
+                        color="primary"
+                        onClick={openDedicatoria}
+                      >
+                        <AddIcon fontSize="inherit" />
+                      </IconButton>
+                    </Box>
+                  </figure>
+                </Box>
+              </Box>
+              <Box>
+                <Box
+                  sx={{
+                    ...carruselConf,
+                  }}
+                >
+                  <figure className="animacion-imagen" style={{ width: "50%" }}>
+                    <img
+                      src={BanerHappy}
+                      alt="primer Imagen"
+                      className="dim-imagen-proyectos"
+                    />
+                    <Box className="efectos-imagen">
+                      <IconButton
+                        size="large"
+                        color="primary"
+                        onClick={openHappy}
+                      >
                         <AddIcon fontSize="inherit" />
                       </IconButton>
                     </Box>
@@ -155,52 +212,16 @@ function Portfolio() {
                 >
                   <figure className="animacion-imagen">
                     <img
-                      src={imagenPortafolio}
+                      src={Letreros}
                       alt="primer Imagen"
                       className="dim-imagen-proyectos"
                     />
                     <Box className="efectos-imagen">
-                      <IconButton size="large" color="primary">
-                        <AddIcon fontSize="inherit" />
-                      </IconButton>
-                    </Box>
-                  </figure>
-                </Box>
-              </Box>
-              <Box>
-                <Box
-                  sx={{
-                    ...carruselConf,
-                  }}
-                >
-                  <figure className="animacion-imagen">
-                    <img
-                      src={imagenPortafolio}
-                      alt="primer Imagen"
-                      className="dim-imagen-proyectos"
-                    />
-                    <Box className="efectos-imagen">
-                      <IconButton size="large" color="primary">
-                        <AddIcon fontSize="inherit" />
-                      </IconButton>
-                    </Box>
-                  </figure>
-                </Box>
-              </Box>
-              <Box>
-                <Box
-                  sx={{
-                    ...carruselConf,
-                  }}
-                >
-                  <figure className="animacion-imagen">
-                    <img
-                      src={imagenPortafolio}
-                      alt="primer Imagen"
-                      className="dim-imagen-proyectos"
-                    />
-                    <Box className="efectos-imagen">
-                      <IconButton size="large" color="primary">
+                      <IconButton
+                        size="large"
+                        color="primary"
+                        onClick={openLetreros}
+                      >
                         <AddIcon fontSize="inherit" />
                       </IconButton>
                     </Box>

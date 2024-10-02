@@ -1,30 +1,28 @@
 .imagen-redondeada {
-    display: inline;
-    border-radius: 50%;
-  }
-.dim-imagen{
+  display: inline;
+  border-radius: 50%;
+}
+.dim-imagen {
   display: flex;
   width: 56%;
-  height: auto; 
-
+  height: auto;
 }
-.dim-imagen-about{
+.dim-imagen-about {
   background: linear-gradient(to bottom, #1d3145, #294864);
   display: flex;
   width: 60%;
   height: auto;
   border-radius: 20px;
   border: 1px solid #ffffff;
-  
 }
-.dim-icon{
+.dim-icon {
   display: inline-block;
   width: 50px;
   height: auto;
   margin: 15px;
 }
 
-.animacion-imagen{
+.animacion-imagen {
   position: relative;
   height: 95%;
   width: 85%;
@@ -33,34 +31,36 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 50);
   cursor: pointer;
 }
-.dim-imagen-proyectos{
+.dim-imagen-proyectos {
   width: 100%;
   height: 100%;
   transition: all 500ms ease-in-out;
 }
 
-.efectos-imagen{
+.efectos-imagen {
   position: absolute;
-  top: 0px;
+  display: flex;
+  top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   visibility: hidden;
-  padding: 0;
+  padding-left: 40%;
   text-align: center;
-  justify-content: "top";
+  justify-content: "center";
+  align-items: center;
   transition: all 500ms ease-out;
 }
 
-.animacion-imagen:hover > .dim-imagen-proyectos{
+.animacion-imagen:hover > .dim-imagen-proyectos {
   transform: scale(1.3);
   transition: all 500ms ease-in-out;
 }
-.animacion-imagen:hover > .efectos-imagen{
+.animacion-imagen:hover > .efectos-imagen {
   visibility: visible;
   opacity: 1;
-  padding: 100px 0 15px 0;
+
   transition: all 500ms ease-out;
 }
 
@@ -74,28 +74,45 @@
 .cursor.blink {
   animation: blink 0.8s infinite;
 }
-.dim-imagen-servicios{
+.dim-imagen-servicios {
   width: 100%;
   border-radius: 10px;
 }
-.figure-servicios{
+.figure-servicios {
   padding: 0;
   position: relative;
   margin: 15px;
 }
 @keyframes blink {
-  0%, 50% {
+  0%,
+  50% {
     opacity: 1;
   }
-  50%, 100% {
+  50%,
+  100% {
     opacity: 0;
   }
 }
 
-.dim-fotoRostro{
+.dim-fotoRostro {
   display: flex;
   width: 35%;
   height: auto;
   border-radius: 50%;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 50);;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 50);
+}
+
+.dim-logo {
+  width: 125px;
+}
+.dim-logo-odontostetic {
+  display: flex;
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+.dim-baner {
+  width: 50%;
+  height: 50%;
+  transition: all 500ms ease-in-out;
 }

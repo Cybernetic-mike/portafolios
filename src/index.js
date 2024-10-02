@@ -29,7 +29,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename="/portafolios">
         <App />
       </BrowserRouter>
     </ThemeProvider>

@@ -17,7 +17,7 @@ function NavListDrawer() {
   const [selectedIndex, setSelectedIndex] = React.useState(1);
 
   const handleScroll = () => {
-    const scrollPosition = window.scrollY; // Ajuste opcional para el desplazamiento
+    const scrollPosition = window.scrollY - 200; // Ajuste opcional para el desplazamiento
     /*const sectionOffsets = sections.map((sectionId) => {
       const section = document.getElementById(sectionId);
       return {

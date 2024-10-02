@@ -24,6 +24,10 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import IconFacebook from "../images/logos--facebook.svg";
 import IconLinkedin from "../images/devicon--linkedin.svg";
 import IconGitHhub from "../images/simple-icons--github.svg";
+import LogoOdnotoStetic from "../images/logo-sin-fondo.png";
+import LogoVilmarket from "../images/vilmarket.png";
+import LogoMike from "../images/MikeSoft-fuente.png";
+import "animate.css";
 
 function SampleArrow() {
   return <div style={{ display: "none" }} />;
@@ -288,7 +292,7 @@ function Home() {
                 }}
               >
                 <img
-                  className="dim-imagen"
+                  className="animate__animated animate__fadeInRight animate__slower dim-imagen"
                   alt="foto de perfil"
                   src={FotoPerfil2}
                 />
@@ -302,18 +306,70 @@ function Home() {
             width: "100%",
           }}
         >
-          <Box className="slider-container">
+          <Box
+            className="slider-container"
+            sx={{
+              display: "flex",
+              width: "auto",
+              height: "auto",
+              //background: "green",
+            }}
+          >
             <Box
               style={{
-                padding: "16px 10% 16px 10%",
+                padding: "0 10%",
                 color: "#ffffff",
+                height: "100%",
+                width: "100%",
               }}
             >
               <Slider {...settings}>
-                <Typography variant="h2">Logotipo 1</Typography>
-                <Typography variant="h2">Logotipo 2</Typography>
-                <Typography variant="h2">Logotipo 3</Typography>
-                <Typography variant="h2">Logotipo 4</Typography>
+                <Box
+                  sx={{
+                    width: "auto",
+                    height: "auto",
+
+                    paddingTop: "8%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  <img
+                    className="dim-logo-odontostetic"
+                    src={LogoOdnotoStetic}
+                    alt="logo odonto stetic"
+                  />
+                </Box>
+                <Box
+                  sx={{
+                    width: "auto",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    className="dim-logo-odontostetic"
+                    src={LogoVilmarket}
+                    alt="logo odonto stetic"
+                  />
+                </Box>
+                <Box
+                  sx={{
+                    width: "auto",
+                    height: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                    paddingTop: "10%",
+                  }}
+                >
+                  <img
+                    className="dim-logo-odontostetic"
+                    src={LogoMike}
+                    alt="logo odonto stetic"
+                  />
+                </Box>
               </Slider>
             </Box>
           </Box>

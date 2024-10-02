@@ -11,6 +11,7 @@ import React, { useState, useEffect } from "react";
 import NavListDrawer from "./NavListDrawer";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import PropTypes from "prop-types";
+import Logo from "../images/MikeSoft-fuente.png";
 function ElevationScroll(props) {
   const { children, window } = props;
   // Note that you normally won't need to set the window ref as useScrollTrigger
@@ -43,7 +44,7 @@ function Navbar(props) {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
   const sections = ["home", "about", "portfolio", "services", "contact"];
   const handleScroll = () => {
-    const scrollPosition = window.scrollY; // Ajuste opcional para el desplazamiento
+    const scrollPosition = window.scrollY - 200; // Ajuste opcional para el desplazamiento
     const sectionOffsets = sections.map((sectionId) => {
       const section = document.getElementById(sectionId);
       return {
@@ -84,21 +85,24 @@ function Navbar(props) {
       <ElevationScroll>
         <AppBar
           position="fixed"
-          style={{ backgroundColor, transition: "background-color 0.5s ease" }}
+          style={{
+            backgroundColor,
+            transition: "background-color 0.5s ease",
+            //alignItems: "end",
+          }}
         >
           <Toolbar variant="dense">
-            <Typography
-              variant="h5"
+            <Box
               sx={{
-                flexGrow: 1,
-                color: "#ffffff",
-                cursor: "pointer",
-                paddingLeft: "50px",
+                position: "static",
+                display: "block",
+                alignItems: "start",
+                width: "49vw",
+                paddingLeft: "5vw",
               }}
-              onClick={() => scrollToSection("home")}
             >
-              {"<MC/>"}
-            </Typography>
+              <img className="dim-logo" src={Logo} alt="Logo" />
+            </Box>
             <Box
               sx={{
                 display: {
@@ -107,6 +111,8 @@ function Navbar(props) {
                   md: "block",
                 },
                 padding: "10px",
+                textAlign: "end",
+                alignItems: "end",
               }}
             >
               <Tabs value={value} onChange={handleChange}>
@@ -154,6 +160,8 @@ function Navbar(props) {
               sx={{
                 display: { xs: "block", sm: "block", md: "none" },
                 padding: "10px",
+                textAlign: "end",
+                width: "50vw",
               }}
             >
               <NavListDrawer />

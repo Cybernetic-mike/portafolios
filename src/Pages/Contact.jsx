@@ -111,7 +111,7 @@ function Contact() {
           elevation: "20px",
           padding: "10px 30px 10px 30px",
           margin: {
-            xs: "20px 40px 0px 40px",
+            xs: "20px 10px 0px 10px",
             sm: "20px 150px 0px 150px",
             md: "50px 100px 0px 100px",
           },
