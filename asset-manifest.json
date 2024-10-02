@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/portafolios/static/css/main.af656833.css",
-    "main.js": "/portafolios/static/js/main.96e9ccac.js",
+    "main.css": "/portafolios/static/css/main.7f26f75b.css",
+    "main.js": "/portafolios/static/js/main.f3c7e0c0.js",
     "static/js/787.d5fa4d18.chunk.js": "/portafolios/static/js/787.d5fa4d18.chunk.js",
     "static/media/FotoPerfil2.png": "/portafolios/static/media/FotoPerfil2.1cceafc9fde0852f7fc4.png",
     "static/media/FotoRostro.png": "/portafolios/static/media/FotoRostro.dbbb47a3261e5096cda6.png",
-    "static/media/Portafolio.png": "/portafolios/static/media/Portafolio.311f855a250cbef83724.png",
+    "static/media/Baner-happy.png": "/portafolios/static/media/Baner-happy.366a2c280d2af577c931.png",
+    "static/media/OdontoStetic-pages.png": "/portafolios/static/media/OdontoStetic-pages.986fbde1dadb1997ba8e.png",
     "static/media/services-4.png": "/portafolios/static/media/services-4.8cc5d728b288a2ce44af.png",
     "static/media/services-2.png": "/portafolios/static/media/services-2.5866d0f104a12084a76b.png",
+    "static/media/Portafolios-pages.png": "/portafolios/static/media/Portafolios-pages.d52043b33459ce8a6494.png",
     "static/media/services-3.png": "/portafolios/static/media/services-3.b310227ef2e4d7e04b9b.png",
     "static/media/services-1.png": "/portafolios/static/media/services-1.3051d439af72607a1e63.png",
+    "static/media/dedicatoria-pages.png": "/portafolios/static/media/dedicatoria-pages.600a9f181bb1bdce45eb.png",
+    "static/media/letreros.png": "/portafolios/static/media/letreros.c3f15e7438dc2abc274b.png",
+    "static/media/logo-sin-fondo.png": "/portafolios/static/media/logo-sin-fondo.2414174d8accf7ec69cd.png",
+    "static/media/MikeSoft-fuente.png": "/portafolios/static/media/MikeSoft-fuente.5d5c93b639fa19fb745a.png",
+    "static/media/vilmarket.png": "/portafolios/static/media/vilmarket.215470c498525a8d987b.png",
     "static/media/logos--react.svg": "/portafolios/static/media/logos--react.1ab4881ec20f7d946bc4927dd9071d00.svg",
     "static/media/slick.svg": "/portafolios/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portafolios/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -22,12 +29,12 @@
     "static/media/devicon--html5.svg": "/portafolios/static/media/devicon--html5.9b3f3f14ee56348ba2dee9dc74d982c8.svg",
     "static/media/logos--facebook.svg": "/portafolios/static/media/logos--facebook.6acd5606be798d6cd42a41d1e524f429.svg",
     "static/media/devicon--linkedin.svg": "/portafolios/static/media/devicon--linkedin.27f9e9cb3a5fae594ec0579828bb9864.svg",
-    "main.af656833.css.map": "/portafolios/static/css/main.af656833.css.map",
-    "main.96e9ccac.js.map": "/portafolios/static/js/main.96e9ccac.js.map",
+    "main.7f26f75b.css.map": "/portafolios/static/css/main.7f26f75b.css.map",
+    "main.f3c7e0c0.js.map": "/portafolios/static/js/main.f3c7e0c0.js.map",
     "787.d5fa4d18.chunk.js.map": "/portafolios/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af656833.css",
-    "static/js/main.96e9ccac.js"
+    "static/css/main.7f26f75b.css",
+    "static/js/main.f3c7e0c0.js"
   ]
 }
